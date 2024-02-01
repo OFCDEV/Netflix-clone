@@ -74,37 +74,43 @@ nav button {
   position: relative;
 }
 .btn {
-  padding: 3px 8px;
+  padding: 9px 17px;
+  margin: 18px;
   font-weight: bold;
-  background-color: white;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.1);
   border: none;
 }
 .btn-red {
-    color: white;
-    background-color: red;
-    padding: 6px 24px 8px 24px;
-    font-size: 20px;
-    border-radius: 4px;
-    border: none;
-    margin: 2px;
+  color: white;
+  background-color: red;
+  font-weight: bold;
+  padding: 6px 24px 8px 24px;
+  font-size: 20px;
+  border-radius: 4px;
+  border: none;
+  margin: 2px;
 }
 
 .btn-red-sm {
+  padding: 8px 11px;
+  border-radius: 4px;
+  font-weight: bold;
   color: white;
   background-color: red;
+  border: none;
 }
 .main input {
-
-    padding: 16px 255px 11px 7px;
-    background-color: rgba(23, 23, 23, 0.7);
-    color: white;
-    font-size: 11px;
-    border: 1px solid rgba(246, 238, 238,0.5);
-    border-radius: 4px;
+  padding: 16px 255px 11px 7px;
+  background-color: rgba(23, 23, 23, 0.7);
+  color: white;
+  font-size: 11px;
+  border: 1px solid rgba(246, 238, 238, 0.5);
+  border-radius: 4px;
 }
-.hero-btn{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 16px;
+.hero-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
 }
